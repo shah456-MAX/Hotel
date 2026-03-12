@@ -3,34 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>KARIBU RESTAURANT</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+    </style>
 </head>
-<body>
-    <h1>KARIBU RESTAURANT</h1>
-    <P>Welcome to Karibu Restaurant.We offer tasty meals for all our customers.</P>
-    <img src="download.jpg" alt="">
-    <h2>OUR MENU</h2>
-    
-    <TABLE>
+
+
+<body style="background-color: rgb(127, 217, 255); ">
+    <h1 style="color: blueviolet; text-align: center;">KARIBU RESTAURANT</h1>
+    <P style="text-align: center;">Welcome to Karibu Restaurant.We offer tasty meals for all our customers.</P>
+    <img src="download.jpg"   alt=""><img src="StockCake-Sunlit_Blooming_Flower-1158457-medium.jpg"style="width: 300px; height: 200px;" alt="">
+    <h2 style="color: blueviolet;font-size: larger; font-weight: 300;">OUR MENU</h2> 
+    <div>
+        <p style="color: blueviolet; font-size: larger; font-weight: 300;">At Karibu Restaurant we offer a variety of meals to satisfy your cravings. Our menu includes:</p>
+        <ul>
+            <li>Ugali&skuma</li>
+            <li>pilau</li>
+            <li>chicken &chips</li>
+            <li>chapati &beans</li>
+        </ul>
+    </div>
+    <TABLE border="1">
         <th>Meal</th>
         <th>Description</th>
         <th>Price</th>
-        <tr>
+        <tr style="background-color: lightcoral;">
             <td>Ugali&skuma</td>
             <td>ugali served with skuma</td>
             <td>250</td>
             <tr>
-              <tr>
+              <tr style="background-color: lightcoral;">
                 <td>pilau</td>
                 <td>spiced rice served with beef</td>
                 <td>300</td>
               </tr>  
-              <tr>
+              <tr style="background-color: lightcoral  ;">
                 <td>chicken &chips</td>
                 <td>fried chicken served with french fries</td>
                 <td>450</td>
                 </tr>
-              <tr>
+              <tr style="background-color: lightcoral;">
                 <td>chapati &beans</td>
                 <td>soft chapati served with stewed beans</td>
                 <td>200</td>
@@ -44,17 +58,19 @@
 
         
     </TABLE>
-    <h3>POPULAR ITEMS </h3>
-    <Ol>
-        <li>pilau</li>
-        <li>chicken&chips</li>
-        <li>Ugali&skuma</li>
-        <li>chapati &beans</li>
-    </Ol>
+    <h3 style="color: blueviolet; text-align: center;">POPULAR ITEMS </h3>
+    <div>
+        <Ol>
+            <li>pilau</li>
+            <li>chicken&chips</li>
+            <li>Ugali&skuma</li>
+            <li>chapati &beans</li>
+        </Ol>
+    </div>
 
-    <h4>Customer login</h4>
+    <h4 style="color: blueviolet; text-align: center;">Customer login</h4>
 
-    <form action="">
+    <form action="" style="background-color: blue;">
         <label for="username">username</label><br>
         
         <input type="text"name id="username"><br>
@@ -66,13 +82,13 @@
         <input type="button" value="login">
 
     </form>
-    <h5>MAKE A RESERVATION</h5>
-    <form action="">
+    <h5 style="color: blueviolet; text-align: center;" class="form-reservation">MAKE A RESERVATION</h5>
+    <form action="" class="reservation">
         <label for="name">name:</label><br>
         <input type="text"name id="name"><br>
         <label for="email">email</label><br>
         <input type="email" name="" id=""><br>
-        <label for="number of guests"></label><br>
+        <label for="number of guests">number of guests</label><br>
         <input type="text" name id="number of guests"><br>
         <label for="date">date</label><br>
         <input type="date" name="" id=""><br>
