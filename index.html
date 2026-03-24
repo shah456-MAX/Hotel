@@ -6,24 +6,79 @@
     <title>KARIBU RESTAURANT</title>
     <link rel="stylesheet" href="style.css">
     <style>
+        .form-reservation 
+            
+        {
+            background-color: bisque;
+            color: blueviolet;
+            padding: 10px;
+            border-radius: 5px;
+            position: relative; 
+            top: 100px;
+            left: 60px;
+        }
+        .reservation {
+            background-color: bisque;
+            padding: 20px;
+            border-radius: 5px;
+            position: relative; 
+            top: 100px;
+            left: 60px;
+            display: none;
+        }
+         table {
+            width: 100%;
+            border-right-color: burlywood;
+            border-bottom-color: burlywood;
+        }
+        .pop_container {
+            text-align: center;
+        }
+        .pop_list {
+            display: inline-block;
+            text-align: left;
+            
+            
+        }
+     nav ul {
+        list-style-type: none;
+        display: flex;
+        flex: row; 
+        justify-content: center;
+        gap: 20px;      
+    }    
+         
+            
+        
 
     </style>
 </head>
 
 
-<body style="background-color: rgb(127, 217, 255); ">
+<body style="background-color: coral; ">
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
     <h1 style="color: blueviolet; text-align: center;">KARIBU RESTAURANT</h1>
     <P style="text-align: center;">Welcome to Karibu Restaurant.We offer tasty meals for all our customers.</P>
     <img src="download.jpg"   alt=""><img src="StockCake-Sunlit_Blooming_Flower-1158457-medium.jpg"style="width: 300px; height: 200px;" alt="">
     <h2 style="color: blueviolet;font-size: larger; font-weight: 300;">OUR MENU</h2> 
     <div>
         <p style="color: blueviolet; font-size: larger; font-weight: 300;">At Karibu Restaurant we offer a variety of meals to satisfy your cravings. Our menu includes:</p>
-        <ul>
-            <li>Ugali&skuma</li>
-            <li>pilau</li>
-            <li>chicken &chips</li>
-            <li>chapati &beans</li>
-        </ul>
+        <div class="pop_container">
+        
+            <ul class="pop_list">
+                <li>Ugali&skuma</li>
+                <li>pilau</li>
+                <li>chicken &chips</li>
+                <li>chapati &beans</li>
+            </ul>
+        </div>
     </div>
     <table>
         <th>Meal</th>
@@ -70,19 +125,19 @@
 
     <h4 style="color: blueviolet; text-align: center;">Customer login</h4>
 
-    <form action="" style="background-color: blue;">
+    <form action="" style="background-color: bisque; padding: 20px; border-radius: 5px;">
         <label for="username">username</label><br>
         
         <input type="text"name id="username"><br>
 
         <label for="password">password</label><br>
-
+s
         <input type="password"><br>
 
         <input type="button" value="login">
 
     </form>
-    <h5 style="color: blueviolet; text-align: center;" class="form-reservation">MAKE A RESERVATION</h5>
+    <h5 style="color: blueviolet; text-align: center;" class="form-reservation" >MAKE A RESERVATION</h5>
     <form action="" class="reservation">
         <label for="name">name:</label><br>
         <input type="text"name id="name"><br>
